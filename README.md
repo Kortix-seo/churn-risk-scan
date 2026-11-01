@@ -82,6 +82,10 @@ skills/churn-signals/SKILL.md  the four signal rules and the ranking rule
 
 Every change to those files is a git commit. On Kortix an agent's change to the project lands as a change request a person merges, so the scoring rules cannot drift silently.
 
+## Reading the other side of the scan
+
+The files here are the operator's view: the rules, the trigger, the one output. The buyer's view of the same job is written up separately, with the numbers a team argues over. Start with [what churn prediction means for an account list](https://churnpredictionguide.com/what-is-churn-prediction) and the [signal list this skill implements](https://churnpredictionguide.com/churn-signals). [What a scoring run looks like](https://churnpredictionguide.com/churn-risk-scoring) and [what the agent version changes](https://churnpredictionguide.com/ai-churn-prediction-agent) cover the output and the automation. If your customer data cannot leave your own infrastructure, read [what self-hosting changes about the data](https://churnpredictionguide.com/self-hosted-churn-prediction) before you connect a production database.
+
 ## Licences and attribution
 
 The files are yours to adapt. The pattern is Kortix's use case, documented at [kortix.com/use-cases/churn-risk](https://kortix.com/use-cases/churn-risk). Kortix itself is open source; the CLI, the manifest reference and the self-host path are at [kortix.com/docs](https://kortix.com/docs).
